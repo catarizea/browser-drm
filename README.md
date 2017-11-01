@@ -14,3 +14,35 @@ Then install packages
 ```sh
 $ yarn
 ```
+
+## Output sample for a desktop browser
+
+```sh
+{
+    "isDrmEnabled": true,
+    "isMobilePlatform": false,
+    "os": {
+        "architecture": 64,
+        "family": "OS X",
+        "version": "10.12.6"
+    },
+    "desktopBrowser": "Chrome",
+    "desktopBrowserVersion": "61.0.3163.100"
+}
+```
+
+## Output sample for a mobile browser
+
+```sh
+{
+    "isDrmEnabled": false,
+    "isMobilePlatform": true,
+    "os": {
+        "architecture": 32,
+        "family": "iOS",
+        "version": "11.1"
+    },
+    "isMobileSupported": true,
+    "mobileOS": "iOS"
+}
+```
