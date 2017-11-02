@@ -3,7 +3,9 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+
 .babelrc
+test.js
 
 coverage
 *bkp*
